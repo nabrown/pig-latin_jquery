@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Make it Piggy!</title>
+	<link href='http://fonts.googleapis.com/css?family=Alef' rel='stylesheet' type='text/css'>
+	<link href='css/piggy.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<h1>Get Piggy With It</h1>
+	<form>
+
+		<textarea type="text" id="input" placeholder="Enter some text to translate!" ></textarea>
+		<!-- <button id="submit">make it piggy</button> -->
+
+	</form>
+	<div id="display" class="display"></div>
+
+  
+	<script type="text/javascript" src="bower_components/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="js/pigLatin.js"></script>
+
+	<script>
+		$('form').piggify();
+	</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "pig-latin_jquery",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-hogan": "~0.2.4"
+  },
+  "dependencies": {
+  	"phantomjs": "~1.9.2-6" 
+  }
+}
